@@ -11181,11 +11181,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TongHopWeb\\QuanLyNhaHang(ReactJS,ASP.NETCORE)\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI.csproj",
+      "projectUniqueName": "D:\\TongHopWeb\\Restaurant_App(ReactJS,ASP.NETCORE)\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI.csproj",
       "projectName": "RestaurantAPI",
-      "projectPath": "D:\\TongHopWeb\\QuanLyNhaHang(ReactJS,ASP.NETCORE)\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI.csproj",
+      "projectPath": "D:\\TongHopWeb\\Restaurant_App(ReactJS,ASP.NETCORE)\\RestaurantAPI\\RestaurantAPI\\RestaurantAPI.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\TongHopWeb\\QuanLyNhaHang(ReactJS,ASP.NETCORE)\\RestaurantAPI\\RestaurantAPI\\obj\\",
+      "outputPath": "D:\\TongHopWeb\\Restaurant_App(ReactJS,ASP.NETCORE)\\RestaurantAPI\\RestaurantAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
