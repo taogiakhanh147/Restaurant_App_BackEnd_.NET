@@ -66,8 +66,8 @@ namespace RestaurantAPI.Controllers
                                          a.CustomerId,
                                          a.PMethod,
                                          a.GTotal,
-                                         deleteOrderItemIds = "",
-                                         orderDetails = orderDetails
+                                         orderDetails = orderDetails,
+                                         deleteOrderItemIds = ""
                                      }).FirstOrDefaultAsync();
 
             if (orderMaster == null)
