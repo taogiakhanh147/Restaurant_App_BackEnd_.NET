@@ -22,13 +22,22 @@ namespace RestaurantAPI.Controllers
 
         // GET: api/Customer
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Customer>>> GetCustomers()
+    public async Task<ActionResult<IEnumerable<Customer>>> GetCustomers()
+    {
+        try
         {
-          if (_context.Customers == null)
-          {
-              return NotFound();
-          }
-            return await _context.Customers.ToListAsync();
+            if (_context.Customers == null)
+            {
+                return NotFound("Customer DBSet is null");
+            }
+    
+            var customers = await _context.Customers.ToListAsync();
+            return customers;
         }
+        catch (Exception ex)
+        {
+            return StatusCode(500, $"Error: {ex.Message}");
+        }
+    }
     }
 }
