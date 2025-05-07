@@ -14,8 +14,10 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowVercelFrontend", builder =>
     {
         builder.WithOrigins("https://restaurant-app-liart-gamma.vercel.app")
+               .AllowAnyOrigin()
+               .AllowAnyMethod()
                .AllowAnyHeader()
-               .AllowAnyMethod();
+               .AllowCredentials()
     });
 });
 
